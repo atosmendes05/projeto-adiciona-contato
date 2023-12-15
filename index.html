@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js" defer></script>
+    <title>Adicionar contato</title>
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <img src="./images/logo-telefone.png" alt="logo-telefone">
+            <h1>Adicionar contato</h1>
+        </header>
+        <form class="forme">
+            <input id="nome-contato" type="text" placeholder="nome do contato" required>
+            <input id="numero-contato" type="tel" placeholder="numero do contato" required>
+            <button type="submit">Cadastra</button>
+        </form>
+        <p id="mensagem"></p>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome do contato</th>
+                    <th>Numero do contato</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>...</th>
+                    <th>...</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+</html>
